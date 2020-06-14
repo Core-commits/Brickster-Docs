@@ -48,7 +48,7 @@ Filtrer Usages:
 
 Example of Usage:
 
-```Csharp
+```csharp
 string Edge = usr.UserDetails(298593, "username");
 Console.WriteLine(Edge);
 // Returns the username attached to the user id.
@@ -71,7 +71,7 @@ Filtrer Usages:
 
 Example of Usage:
 
-```Csharp
+```csharp
 string Username = usr.ToUsername(298593);
 Console.WriteLine(Username);
 // Returns the username attached to the user id.
@@ -94,7 +94,7 @@ Filtrer Usages:
 
 Example of Usage:
 
-```Csharp
+```csharp
 string id = usr.ToId("Edge.");
 Console.WriteLine(id);
 // Returns the id attached to the username.
@@ -119,7 +119,7 @@ Filtrer Usages:
 
 Example of Usage:
 
-```Csharp
+```csharp
 string LatestShirt = shp.GetLatest("shirt", "bits");
 string LatestShirtName = shp.GetLatest("shirt", "name");
 Console.WriteLine("Latest Shirt Uploaded:\n");
@@ -149,7 +149,7 @@ Filtrer Usages:
 
 Example of Usage:
 
-```Csharp
+```csharp
 string ClanName = cln.ClanInfo(3355, "name");
 string ClanTag = clan.ClanInfo(3355, "tag");
 string ClanCreation = cln.ClanInfo(3355, "creationdate");
