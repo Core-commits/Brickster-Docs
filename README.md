@@ -18,6 +18,7 @@ Documentation files made by Edge.
  - Brickster. BHT .BHT
  - Brickster. V1 .Games
 
+**Note:** Documentation is still in development as the creator of brickster is adding features. Right now only User, Shop, and clan variables are working. Everytime the creator implements more classes and functions they will be added to the docs right away. Open an issue if you find a typo or a error!
 ### Starting the variables:
 
 The API needs to load a few variables (This is purely for simplicity when programming)
@@ -156,7 +157,7 @@ Example of Usage:
 
 ```csharp
 string ClanName = cln.ClanInfo(3355, "name");
-string ClanTag = clan.ClanInfo(3355, "tag");
+string ClanTag = cln.ClanInfo(3355, "tag");
 string ClanCreation = cln.ClanInfo(3355, "creationdate");
 Console.WriteLine("Clan Name: "+ClanName);
 Console.WriteLine("Clan Tag "+ClanTag);
